@@ -115,7 +115,7 @@ function mouseDragged(){
 }
 function keyPressed(){
   if (keyCode === 32){
-    sling.attach(this.ball)
+    slingShot.attach(this.ball)
   }
 }
 function mouseReleased(){
